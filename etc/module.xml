@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+  ~ Blackbird Logger Module
+  ~
+  ~  NOTICE OF LICENSE
+  ~  If you did not receive a copy of the license and are unable to
+  ~  obtain it through the world-wide-web, please send an email
+  ~  to contact@bird.eu so we can send you a copy immediately.
+  ~
+  ~  @category        Blackbird
+  ~  @package         Blackbird_Logger
+  ~  @copyright       Copyright (c) 2017 Blackbird (https://black.bird.eu)
+  ~  @author          Blackbird Team
+  ~  @license         https://store.bird.eu/license/
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Blackbird_Logger" setup_version="0.1.0">
+        <sequence>
+
+        </sequence>
+    </module>
+</config>
