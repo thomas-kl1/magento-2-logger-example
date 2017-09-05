@@ -18,14 +18,22 @@
         <arguments>
             <argument name="name" xsi:type="string">logger</argument>
             <argument name="handlers"  xsi:type="array">
-                <!--emergency--><item name="warning" xsi:type="object">Blackbird\Logger\Logger\Handler\Base</item>
-                <!--alert--><item name="warning" xsi:type="object">Blackbird\Logger\Logger\Handler\Base</item>
-                <!--critical--><item name="warning" xsi:type="object">Blackbird\Logger\Logger\Handler\Base</item>
-                <!--error--><item name="warning" xsi:type="object">Blackbird\Logger\Logger\Handler\Base</item>
-                <!--warning--><item name="warning" xsi:type="object">Blackbird\Logger\Logger\Handler\Base</item>
-                <!--notice--><item name="notice" xsi:type="object">Blackbird\Logger\Logger\Handler\Base</item>
-                <!--info--><item name="system" xsi:type="object">Blackbird\Logger\Logger\Handler\System</item>
-                <!--debug--><item name="debug" xsi:type="object">Blackbird\Logger\Logger\Handler\Debug</item>
+                <!--emergency-->
+                <item name="emergency" xsi:type="object">Blackbird\Logger\Logger\Handler\Base</item>
+                <!--alert-->
+                <item name="alert" xsi:type="object">Blackbird\Logger\Logger\Handler\Base</item>
+                <!--critical-->
+                <item name="critical" xsi:type="object">Blackbird\Logger\Logger\Handler\Base</item>
+                <!--error-->
+                <item name="error" xsi:type="object">Blackbird\Logger\Logger\Handler\Base</item>
+                <!--warning-->
+                <item name="warning" xsi:type="object">Blackbird\Logger\Logger\Handler\Base</item>
+                <!--notice-->
+                <item name="notice" xsi:type="object">Blackbird\Logger\Logger\Handler\Base</item>
+                <!--info-->
+                <item name="system" xsi:type="object">Blackbird\Logger\Logger\Handler\System</item>
+                <!--debug-->
+                <item name="debug" xsi:type="object">Blackbird\Logger\Logger\Handler\Debug</item>
             </argument>
         </arguments>
     </virtualType>
