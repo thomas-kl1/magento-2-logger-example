@@ -2,12 +2,9 @@
     "name": "blackbird/logger",
     "description": "Demo Module for Custom Logger with Magento 2",
     "require": {
-        "monolog/monolog": "1.16.*",
-        "magento/framework": "100.*.*",
-        "magento/magento-composer-installer": "*"
-    },
-    "suggest": {
-
+        "magento/magento-composer-installer": "*",
+        "magento/framework": ">=100.0.0",
+        "monolog/monolog": "^1.16.0"
     },
     "type": "magento2-module",
     "version": "0.1.2",
