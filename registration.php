@@ -1,6 +1,6 @@
 <?php
 /**
- * Blackbird ContentManager Module
+ * Blackbird LoggerSample Module
  *
  *  NOTICE OF LICENSE
  *  If you did not receive a copy of the license and are unable to
@@ -8,14 +8,14 @@
  *  to contact@bird.eu so we can send you a copy immediately.
  *
  *  @category        Blackbird
- *  @package         Blackbird_ContentManager
+ *  @package         Blackbird_LoggerSample
  *  @copyright       Copyright (c) 2017 Blackbird (https://black.bird.eu)
  *  @author          Blackbird Team
- *  @license         https://www.advancedcontentmanager.com/license/
+ *  @license         MIT
  */
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Blackbird_Logger',
+    'Blackbird_LoggerSample',
     __DIR__
 );
