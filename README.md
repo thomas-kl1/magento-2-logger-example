@@ -39,7 +39,7 @@ Raise a new [request](https://github.com/blackbird-agency/magento-2-logger-examp
 
 ## Authors
 
-- **Thomas Klein** - *Initial work* - [It's me!](https://github.com/thomas-blackbird)
+- **Thomas Klein** - *Initial work* - [It's me!](https://github.com/thomas-kl1)
 - **Blackbird Team** - *Contributor* - [They're awesome!](https://github.com/blackbird-agency)
 
 ## Contact
